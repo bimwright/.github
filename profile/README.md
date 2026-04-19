@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bimwright/.github/master/assets/logos/bimwright-logo.png" alt="bimwright — Forging the digital craft of the built environment" width="480">
+</p>
+
 # bimwright
 
 Centuries ago, the suffix "-wright" carried a distinct and weighty meaning. It did not merely denote a laborer; it signified a master craftsman. The shipwright understood the invisible tensions of wood and water to build vessels that crossed oceans. The wheelwright forged iron and oak to carry the brutal weight of commerce across continents. A wright was a maker who possessed a deep, tactile relationship with their materials, shaping raw elements into structures that endured. They did not mass-produce; they carefully constructed the foundational tools and vehicles of their eras.
@@ -15,6 +19,7 @@ By carefully machining open, precise Model Context Protocol servers, we build th
 ## Tools
 
 - [**rvt-mcp**](https://github.com/bimwright/rvt-mcp) — MCP gateway for Autodesk® Revit® 2022–2027. Expose the Revit API as AI-callable tools with progressive disclosure (toolset gating), transaction-safe batch execution, and a ToolBaker self-evolution engine.
+- [**bim-wiki**](https://github.com/bimwright/bim-wiki) — Vietnamese-first BIM knowledge base: ISO 19650 + the Vietnamese regulatory landscape (QĐ 347/348/1057/2500, Luật 60/2024, Nghị định 111/2024/175/2024). CC-BY-SA 4.0.
 
 More tools for other AEC disciplines are on the forge.
 
