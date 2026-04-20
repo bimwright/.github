@@ -19,7 +19,14 @@ We believe in doing BIM the "right" way — transparent, focused, and deliberate
 - [**rvt-mcp**](https://github.com/bimwright/rvt-mcp) — MCP gateway for Autodesk® Revit® 2022–2027. Expose the Revit API as AI-callable tools with progressive disclosure (toolset gating), transaction-safe batch execution, and a ToolBaker self-evolution engine.
 - [**bim-wiki**](https://github.com/bimwright/bim-wiki) — Vietnamese-first BIM knowledge base: ISO 19650 + the Vietnamese regulatory landscape (QĐ 347/348/1057/2500, Luật 60/2024, Nghị định 111/2024/175/2024). CC-BY-SA 4.0.
 
-More tools for other AEC disciplines are on the forge.
+### On the forge
+
+Planned additions to the `<ext>-mcp` family, to be started once `rvt-mcp` reaches product-market fit:
+
+- **`dwg-mcp`** — MCP gateway for AutoCAD® (DWG workflows).
+- **`nwd-mcp`** — MCP gateway for Navisworks® (NWD coordination / clash review).
+
+Same architectural pattern as `rvt-mcp`: predictable, auditable, reversible. If you're thinking of building one of these under a similar name, please reach out first — we'd rather collaborate than fragment.
 
 ---
 
