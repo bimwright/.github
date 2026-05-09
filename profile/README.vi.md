@@ -21,17 +21,17 @@ Chúng tôi tin vào việc làm BIM cho *đúng* — minh bạch, tập trung, 
 ## Tools
 
 - [**rvt-mcp**](https://github.com/bimwright/rvt-mcp) — MCP gateway cho Autodesk® Revit® 2022–2027. Expose Revit API thành các tool AI gọi được, có progressive disclosure (toolset gating), batch execution an toàn về transaction, và ToolBaker self-evolution engine.
+- [**dwg-mcp**](https://github.com/bimwright/dwg-mcp) — MCP gateway cho Autodesk® AutoCAD® 2024. Đọc text trong bản vẽ, nhóm fragment theo không gian, ghi lại bản dịch tại chỗ, và chạy code có audit trong một workflow có thể undo.
 - [**bim-wiki**](https://github.com/bimwright/bim-wiki) — Kho kiến thức BIM ưu tiên tiếng Việt: ISO 19650 + khung pháp lý Việt Nam (QĐ 347/348/1057/2500, Luật 60/2024, Nghị định 111/2024/175/2024). Giấy phép CC-BY-SA 4.0.
 
 ### On the forge (đang rèn)
 
-Các bổ sung dự kiến cho họ `<ext>-mcp`, sẽ bắt đầu khi `rvt-mcp` đạt product-market fit:
+Các bổ sung tiếp theo cho họ `<ext>-mcp`:
 
-- **`dwg-mcp`** — MCP gateway cho AutoCAD® (workflow DWG).
 - **`nwd-mcp`** — MCP gateway cho Navisworks® (coordination / clash review NWD).
 
-Cùng pattern kiến trúc với `rvt-mcp`: predictable, auditable, reversible. Nếu bạn đang nghĩ đến việc tự build một cái tương tự dưới tên gần giống, vui lòng liên hệ trước — chúng tôi muốn hợp tác hơn là làm fragment thị trường.
+Cùng pattern kiến trúc với `rvt-mcp` và `dwg-mcp`: predictable, auditable, reversible. Nếu bạn đang nghĩ đến việc tự build một cái tương tự dưới tên gần giống, vui lòng liên hệ trước — chúng tôi muốn hợp tác hơn là làm fragment thị trường.
 
 ---
 
-<sub>Revit và Autodesk là thương hiệu đã đăng ký của Autodesk, Inc. bimwright là một dự án open-source độc lập, không liên kết, không được tài trợ, và không được bảo chứng bởi Autodesk, Inc.</sub>
+<sub>Revit, AutoCAD, Navisworks và Autodesk là thương hiệu đã đăng ký của Autodesk, Inc. bimwright là một dự án open-source độc lập, không liên kết, không được tài trợ, và không được bảo chứng bởi Autodesk, Inc.</sub>

@@ -21,17 +21,17 @@ bimwright 的使命是找回匠人的精神。我们不只是软件供应商 —
 ## Tools
 
 - [**rvt-mcp**](https://github.com/bimwright/rvt-mcp) —— 面向 Autodesk® Revit® 2022–2027 的 MCP gateway。把 Revit API 暴露成 AI 可调用的工具，配套 progressive disclosure (toolset gating)、事务安全的 batch execution，以及 ToolBaker 自进化引擎。
+- [**dwg-mcp**](https://github.com/bimwright/dwg-mcp) —— 面向 Autodesk® AutoCAD® 2024 的 MCP gateway。读取图纸文字、按空间关系聚合片段、原位写回翻译，并通过可审计、可撤销的流程执行代码。
 - [**bim-wiki**](https://github.com/bimwright/bim-wiki) —— 越南语优先的 BIM 知识库：ISO 19650 + 越南本地监管体系 (QĐ 347/348/1057/2500、Luật 60/2024、Nghị định 111/2024/175/2024)。CC-BY-SA 4.0 许可证。页面内容以越南语为主。
 
 ### On the forge (锻造中)
 
-`<ext>-mcp` 家族后续规划，将在 `rvt-mcp` 达到 product-market fit 之后启动：
+`<ext>-mcp` 家族的后续规划：
 
-- **`dwg-mcp`** —— 面向 AutoCAD® 的 MCP gateway (DWG 工作流)。
 - **`nwd-mcp`** —— 面向 Navisworks® 的 MCP gateway (NWD 协调 / 冲突检查)。
 
-与 `rvt-mcp` 共享同一套架构原则：predictable, auditable, reversible (可预测、可审计、可回滚)。如果您正在考虑以相近命名自行开发其中之一，请先与我们联系 —— 我们更希望协作，而不是让生态碎片化。
+与 `rvt-mcp` 和 `dwg-mcp` 共享同一套架构原则：predictable, auditable, reversible (可预测、可审计、可回滚)。如果您正在考虑以相近命名自行开发其中之一，请先与我们联系 —— 我们更希望协作，而不是让生态碎片化。
 
 ---
 
-<sub>Revit 与 Autodesk 是 Autodesk, Inc. 的注册商标。bimwright 是一个独立的开源项目，与 Autodesk, Inc. 无任何附属、赞助或背书关系。</sub>
+<sub>Revit、AutoCAD、Navisworks 与 Autodesk 是 Autodesk, Inc. 的注册商标。bimwright 是一个独立的开源项目，与 Autodesk, Inc. 无任何附属、赞助或背书关系。</sub>
