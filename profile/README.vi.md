@@ -24,7 +24,7 @@ Chúng tôi tin vào việc làm BIM cho *đúng* — minh bạch, tập trung, 
 - [**dwg-mcp**](https://github.com/bimwright/dwg-mcp) — MCP gateway cho Autodesk® AutoCAD® 2022–2027. Đọc text trong bản vẽ, nhóm fragment theo không gian, ghi lại bản dịch tại chỗ, và chạy code có audit trong một workflow có thể undo.
 - [**nwd-mcp**](https://github.com/bimwright/nwd-mcp) — MCP gateway cho Autodesk® Navisworks® Manage 2022–2027. Query, inspect và điều hướng mô hình phối hợp (federated) để clash review, bảo mật bằng TCP chỉ-loopback và token theo từng session.
 - [**ipt-mcp**](https://github.com/bimwright/ipt-mcp) — MCP gateway cho Autodesk® Inventor® 2022–2027. Điều khiển dựng hình parametric part/sketch/feature, parameter và iProperty dưới dạng tool AI gọi được, trên stack add-in đa phiên bản viết thuần C#.
-- [**bim-wiki**](https://github.com/bimwright/bim-wiki) — Kho kiến thức BIM ưu tiên tiếng Việt: ISO 19650 + khung pháp lý Việt Nam (QĐ 347/348/1057/2500, Luật 60/2024, Nghị định 111/2024/175/2024). Giấy phép CC-BY-SA 4.0.
+- [**bim-wiki**](https://github.com/bimwright/bim-wiki) — Kho kiến thức BIM ưu tiên tiếng Việt: ISO 19650 + khung pháp lý Việt Nam (QĐ 347/348/1057/2500, Luật 60/2024, Nghị định 111/2024/175/2024, Thông tư 09/2024/24/2025). Giấy phép CC-BY-SA 4.0.
 
 Cả họ `<ext>-mcp` dùng chung một pattern kiến trúc: predictable, auditable, reversible. Nếu bạn đang nghĩ đến việc tự build một cái tương tự dưới tên gần giống, vui lòng liên hệ trước — chúng tôi muốn hợp tác hơn là làm fragment thị trường.
 
