@@ -1,20 +1,18 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bimwright/.github/master/assets/logos/bimwright-logo.png" alt="bimwright — The Digital Craft of the Built Environment" width="480">
+  <img src="https://raw.githubusercontent.com/bimwright/.github/master/assets/logos/bimwright-logo.png" alt="bimwright" width="480">
 </p>
 
 <p align="center">
   📖 English · <a href="README.vi.md">Tiếng Việt</a> · <a href="README.zh-CN.md">简体中文</a>
 </p>
 
-# bimwright — The Digital Craft of the Built Environment
+# bimwright
 
-Centuries ago, a "wright" was a master maker — an artisan with a deep, tactile relationship with their materials. Today, the materials of construction are data and code. Yet modern AEC professionals often find themselves trapped in "walled gardens," forced to use bloated, black-box software that obscures the true art of the discipline.
+Open-source tools connecting AI assistants to BIM and CAD applications.
 
-bimwright exists to reclaim the ethos of the artisan. We are not just software vendors; we are craftsmen of logic. By hand-forging open, precise Model Context Protocol (MCP) servers, we build the vital bridges that allow heavy-duty AEC applications to reason and operate with modern AI.
+Work with Revit, AutoCAD, Navisworks, and Inventor through the Model Context Protocol (MCP). Query models, automate repetitive tasks, and make changes using the applications’ native APIs.
 
-We believe in doing BIM the "right" way — transparent, focused, and deliberately designed for the practitioner. We put control back into the hands of the architects and engineers who actually design the world.
-
-**bimwright. Built right.**
+The name combines **BIM** with **wright**, an old word for a maker or builder—as in *shipwright*. We build tools for people who design and build.
 
 ---
 
