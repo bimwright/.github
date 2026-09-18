@@ -1,20 +1,18 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bimwright/.github/master/assets/logos/bimwright-logo.png" alt="bimwright — The Digital Craft of the Built Environment" width="480">
+  <img src="https://raw.githubusercontent.com/bimwright/.github/master/assets/logos/bimwright-logo.png" alt="bimwright" width="480">
 </p>
 
 <p align="center">
-  <a href="README.md">📖 English</a> · <a href="README.vi.md">Tiếng Việt</a> · 简体中文
+  <a href="README.md">English</a> · <a href="README.vi.md">Tiếng Việt</a> · 简体中文 · <a href="README.ja.md">日本語</a>
 </p>
 
-# bimwright — 建成环境的数字匠艺
+# bimwright
 
-几个世纪以前，"wright" 指的是一位技艺精湛的匠人 —— 与自己所用的材料有着深入、亲手经验的艺人。今天，建筑行业的"材料"是数据和代码。然而，现代 AEC (建筑/工程/施工) 从业者却常常被困在"围墙花园"之中 —— 被迫使用臃肿、黑箱式的软件，遮蔽了这一学科真正的技艺。
+连接 AI 助手与 BIM、CAD 应用的开源工具。
 
-bimwright 的使命是找回匠人的精神。我们不只是软件供应商 —— 我们是逻辑的匠人。通过亲手打造开放、精确的 MCP (Model Context Protocol) 服务器，我们构建起关键的桥梁，让重型 AEC 应用能够与现代 AI 一起进行推理与操作。
+通过 Model Context Protocol（MCP）使用 Revit、AutoCAD、Navisworks 和 Inventor。借助这些应用的原生 API 查询模型、自动化重复任务并执行修改。
 
-我们相信"对"的 BIM 应该是这样做的 —— 透明、专注、为真正的从业者而刻意设计。把控制权交还到实际设计这个世界的建筑师与工程师手中。
-
-**bimwright. Built right.**
+**bimwright** 这个名字由 **BIM** 和 **wright** 组成。wright 是英语中表示制作者或建造者的旧词，如 *shipwright*（造船工）。我们为从事设计和建造的人开发工具。
 
 ---
 

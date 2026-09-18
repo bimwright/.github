@@ -1,20 +1,18 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bimwright/.github/master/assets/logos/bimwright-logo.png" alt="bimwright — The Digital Craft of the Built Environment" width="480">
+  <img src="https://raw.githubusercontent.com/bimwright/.github/master/assets/logos/bimwright-logo.png" alt="bimwright" width="480">
 </p>
 
 <p align="center">
-  <a href="README.md">📖 English</a> · Tiếng Việt · <a href="README.zh-CN.md">简体中文</a>
+  <a href="README.md">English</a> · Tiếng Việt · <a href="README.zh-CN.md">简体中文</a> · <a href="README.ja.md">日本語</a>
 </p>
 
-# bimwright — Thủ công số cho môi trường xây dựng
+# bimwright
 
-Hàng thế kỷ trước, "wright" là một bậc thầy chế tác — một người nghệ nhân hiểu vật liệu đến từng chi tiết bằng chính đôi tay của mình. Ngày nay, vật liệu của ngành xây dựng là dữ liệu và mã nguồn. Nhưng dân AEC hiện đại lại thường xuyên bị nhốt trong "walled garden" — buộc phải dùng các phần mềm cồng kềnh, black-box, che mất nghệ thuật thực sự của nghề.
+Các công cụ mã nguồn mở kết nối trợ lý AI với ứng dụng BIM và CAD.
 
-bimwright tồn tại để đòi lại tinh thần của người nghệ nhân. Chúng tôi không chỉ là nhà cung cấp phần mềm — chúng tôi là thợ rèn logic. Bằng cách hand-forge các MCP (Model Context Protocol) server mở và chính xác, chúng tôi dựng những cây cầu cần thiết để các ứng dụng AEC heavy-duty có thể "suy nghĩ" và vận hành cùng AI hiện đại.
+Làm việc với Revit, AutoCAD, Navisworks và Inventor qua Model Context Protocol (MCP). Truy vấn mô hình, tự động hóa công việc lặp lại và thực hiện thay đổi bằng API gốc của các ứng dụng.
 
-Chúng tôi tin vào việc làm BIM cho *đúng* — minh bạch, tập trung, thiết kế có chủ đích cho người hành nghề. Đưa quyền kiểm soát trở lại tay các kiến trúc sư và kỹ sư — những người thực sự đang thiết kế thế giới này.
-
-**bimwright. Built right.**
+Tên **bimwright** ghép **BIM** với **wright**, một từ tiếng Anh cổ chỉ người thợ chế tạo hoặc xây dựng — như trong *shipwright* (thợ đóng tàu). Chúng tôi làm công cụ cho những người làm thiết kế và xây dựng.
 
 ---
 
