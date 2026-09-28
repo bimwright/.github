@@ -24,8 +24,14 @@ Tên **bimwright** ghép **BIM** với **wright**, một từ tiếng Anh cổ c
 - [**ipt-mcp**](https://github.com/bimwright/ipt-mcp) — MCP gateway cho Autodesk® Inventor® 2022–2027. Điều khiển dựng hình parametric part/sketch/feature, parameter và iProperty dưới dạng tool AI gọi được, trên stack add-in đa phiên bản viết thuần C#.
 - [**bim-wiki**](https://github.com/bimwright/bim-wiki) — Kho kiến thức BIM ưu tiên tiếng Việt: ISO 19650 + khung pháp lý Việt Nam (QĐ 347/348/1057/2500, Luật 60/2024, Nghị định 111/2024/175/2024, Thông tư 09/2024/24/2025). Giấy phép CC-BY-SA 4.0.
 
+## Cách đặt tên
+
+Tên các gateway lấy cảm hứng từ phần mở rộng tệp quen thuộc: `.rvt` cho mô hình Revit, `.dwg` cho bản vẽ AutoCAD, `.nwd` cho mô hình phối hợp Navisworks và `.ipt` cho chi tiết Inventor. Quy ước `<ext>-mcp` giúp người dùng nhận ra ứng dụng và quy trình mà mỗi gateway phục vụ, đồng thời giữ cách gọi nhất quán trong cả nhóm dự án. Đây là dấu hiệu nhận diện, không phải giới hạn về loại tệp hoặc quy trình mà gateway hỗ trợ.
+
+Cách đặt tên giải thích nguồn gốc dự án, không hàm ý chúng tôi sở hữu tên định dạng tệp hoặc các tên đó nằm ngoài phạm vi bảo hộ nhãn hiệu. Các nhãn hiệu liên quan thuộc chủ sở hữu tương ứng.
+
 Cả họ `<ext>-mcp` dùng chung một pattern kiến trúc: predictable, auditable, reversible. Nếu bạn đang nghĩ đến việc tự build một cái tương tự dưới tên gần giống, vui lòng liên hệ trước — chúng tôi muốn hợp tác hơn là làm fragment thị trường.
 
 ---
 
-<sub>Revit, AutoCAD, Navisworks, Inventor và Autodesk là thương hiệu đã đăng ký của Autodesk, Inc. bimwright là một dự án open-source độc lập, không liên kết, không được tài trợ, và không được bảo chứng bởi Autodesk, Inc.</sub>
+<sub>Autodesk, AutoCAD, DWG, Inventor, Navisworks và Revit là nhãn hiệu hoặc nhãn hiệu đã đăng ký của Autodesk, Inc. và/hoặc các công ty con, công ty liên kết. bimwright là một dự án open-source độc lập, không liên kết, không được tài trợ, và không được bảo chứng bởi Autodesk, Inc.</sub>

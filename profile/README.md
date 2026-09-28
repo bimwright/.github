@@ -24,8 +24,14 @@ The name combines **BIM** with **wright**, an old word for a maker or builder—
 - [**ipt-mcp**](https://github.com/bimwright/ipt-mcp) — MCP gateway for Autodesk® Inventor® 2022–2027. 88 tools with send_code (default 84) across 13 toolsets, with a ToolBaker self-evolution engine. Drive parametric part/sketch/feature modeling, parameters, and iProperties as AI-callable tools across a pure-C# multi-version add-in stack. Apache-2.0.
 - [**bim-wiki**](https://github.com/bimwright/bim-wiki) — Vietnamese-first BIM knowledge base: ISO 19650 + the Vietnamese regulatory landscape (QĐ 347/348/1057/2500, Luật 60/2024, Nghị định 111/2024/175/2024, Circulars 09/2024/24/2025). CC-BY-SA 4.0.
 
+## Naming
+
+The gateway names take inspiration from familiar file extensions: `.rvt` for Revit models, `.dwg` for AutoCAD drawings, `.nwd` for Navisworks coordination models, and `.ipt` for Inventor parts. The `<ext>-mcp` pattern helps users recognize the application and workflows each gateway serves and keeps the family naming consistent. These are recognition cues, not limits on the file types or workflows a gateway supports.
+
+The naming explains the projects' origins; it does not claim ownership of the file-format names or that those names are outside trademark protection. Related trademarks belong to their respective owners.
+
 A shared architectural pattern runs through the whole `<ext>-mcp` family: predictable, auditable, reversible. If you're thinking of building one of these under a similar name, please reach out first — we'd rather collaborate than fragment.
 
 ---
 
-<sub>Revit, AutoCAD, Navisworks, Inventor, and Autodesk are registered trademarks of Autodesk, Inc. bimwright is an independent open-source project and is not affiliated with, sponsored by, or endorsed by Autodesk, Inc.</sub>
+<sub>Autodesk, AutoCAD, DWG, Inventor, Navisworks, and Revit are trademarks or registered trademarks of Autodesk, Inc., and/or its subsidiaries and/or affiliates. bimwright is an independent open-source project and is not affiliated with, sponsored by, or endorsed by Autodesk, Inc.</sub>

@@ -24,8 +24,14 @@ Model Context Protocol（MCP）を通じて Revit、AutoCAD、Navisworks、Inven
 - [**ipt-mcp**](https://github.com/bimwright/ipt-mcp) — Autodesk® Inventor® 2022–2027 向けの MCP ゲートウェイ。パラメトリックなパーツ・スケッチ・フィーチャのモデリング、パラメータ、iProperty を AI から操作できます。複数バージョンに対応するアドインを C# で実装しています。Apache-2.0。
 - [**bim-wiki**](https://github.com/bimwright/bim-wiki) — ベトナム語を中心とする BIM ナレッジベース。ISO 19650 とベトナムの法規制（QĐ 347/348/1057/2500、Luật 60/2024、Nghị định 111/2024/175/2024、Thông tư 09/2024/24/2025）を扱います。CC-BY-SA 4.0。
 
+## 命名について
+
+ゲートウェイの名前は、利用者になじみのあるファイル拡張子に由来します。Revit モデルの `.rvt`、AutoCAD 図面の `.dwg`、Navisworks の統合モデルの `.nwd`、Inventor パーツの `.ipt` です。`<ext>-mcp` という形式で名前を統一することで、各ゲートウェイが対象とするアプリケーションやワークフローを見分けやすくしています。これらは識別の手がかりであり、対応するファイル形式やワークフローを限定するものではありません。
+
+この説明は命名の由来を示すものであり、ファイル形式名の所有権や、それらが商標保護の対象外であることを主張するものではありません。関連する商標は、それぞれの権利者に帰属します。
+
 `<ext>-mcp` ファミリーは、予測可能で、監査でき、操作を取り消せる設計を共通の方針としています。似た名前で関連ツールを開発する場合は、まずご連絡ください。プロジェクトを分散させるよりも、協力して開発したいと考えています。
 
 ---
 
-<sub>Revit、AutoCAD、Navisworks、Inventor および Autodesk は Autodesk, Inc. の登録商標です。bimwright は独立したオープンソースプロジェクトであり、Autodesk, Inc. との提携、同社による資金提供、または同社の推奨を受けているものではありません。</sub>
+<sub>Autodesk、AutoCAD、DWG、Inventor、Navisworks および Revit は Autodesk, Inc. および／またはその子会社・関連会社の商標または登録商標です。bimwright は独立したオープンソースプロジェクトであり、Autodesk, Inc. との提携、同社による資金提供、または同社の推奨を受けているものではありません。</sub>
