@@ -10,19 +10,21 @@
 
 连接 AI 助手与 BIM、CAD 应用的开源工具。
 
-通过 Model Context Protocol（MCP）使用 Revit、AutoCAD、Navisworks 和 Inventor。借助这些应用的原生 API 查询模型、自动化重复任务并执行修改。
+通过 Model Context Protocol（MCP）使用 Revit、AutoCAD、Navisworks 和 Inventor。我们的 C# 网关在本地运行，将支持 MCP 的 AI 客户端连接到应用的原生 API。在人的指导和审核下，检查模型与图纸、自动化重复任务，并创建或修改原生几何与技术文档。
 
 **bimwright** 这个名字由 **BIM** 和 **wright** 组成。wright 是英语中表示制作者或建造者的旧词，如 *shipwright*（造船工）。我们为从事设计和建造的人开发工具。
 
 ---
 
-## Tools
+## 工具
 
-- [**rvt-mcp**](https://github.com/bimwright/rvt-mcp) —— 面向 Autodesk® Revit® 2022–2027 的 MCP gateway。把 Revit API 暴露成 AI 可调用的工具，配套 progressive disclosure (toolset gating)、事务安全的 batch execution，以及 ToolBaker 自进化引擎。
-- [**dwg-mcp**](https://github.com/bimwright/dwg-mcp) —— 面向 Autodesk® AutoCAD® 2022–2027 的 MCP gateway。读取图纸文字、按空间关系聚合片段、原位写回翻译，并通过可审计、可撤销的流程执行代码。
-- [**nwd-mcp**](https://github.com/bimwright/nwd-mcp) —— 面向 Autodesk® Navisworks® Manage 2022–2027 的 MCP gateway。查询、检视并导航联合 (federated) 协调模型以进行冲突检查，采用仅环回 (loopback-only) TCP 与按会话令牌保障安全。
-- [**ipt-mcp**](https://github.com/bimwright/ipt-mcp) —— 面向 Autodesk® Inventor® 2022–2027 的 MCP gateway。把参数化的 part/sketch/feature 建模、参数与 iProperty 暴露成 AI 可调用的工具，运行于纯 C# 的多版本 add-in 技术栈之上。
-- [**bim-wiki**](https://github.com/bimwright/bim-wiki) —— 越南语优先的 BIM 知识库：ISO 19650 + 越南本地监管体系 (QĐ 347/348/1057/2500、Luật 60/2024、Nghị định 111/2024/175/2024、Thông tư 09/2024/24/2025)。CC-BY-SA 4.0 许可证。页面内容以越南语为主。
+- [**rvt-mcp**](https://github.com/bimwright/rvt-mcp) —— 面向 Autodesk® Revit® 的 MCP 网关。检查 BIM 模型，创建和修改构件，并处理视图、图纸与模型数据。类型明确的工具和事务安全的批量执行支持智能体驱动的 BIM 工作流程与插件开发。Apache-2.0。
+- [**dwg-mcp**](https://github.com/bimwright/dwg-mcp) —— 面向 Autodesk® AutoCAD® 的 MCP 网关。检查和编辑 DWG 图纸，处理几何、文字、块、尺寸和注释，并捕获与导航图纸视图。支持重复性 CAD 工作和原位文字翻译流程。Apache-2.0。
+- [**nwd-mcp**](https://github.com/bimwright/nwd-mcp) —— 面向 Autodesk® Navisworks® Manage 的 MCP 网关。在联合模型中查询属性、搜索和选择对象、控制可见性并导航已保存的视点，辅助协调与冲突审查。Apache-2.0。
+- [**ipt-mcp**](https://github.com/bimwright/ipt-mcp) —— 面向 Autodesk® Inventor® 的 MCP 网关。构建参数化零件、草图与特征，放置和检查装配，并创建和完善包含视图、尺寸、注释和表格的原生工程图。Apache-2.0。
+- [**bim-wiki**](https://github.com/bimwright/bim-wiki) —— 越南语优先的 BIM 知识库，涵盖 ISO 19650、信息管理、项目交付和越南的 BIM 法规体系。CC-BY-SA 4.0。
+
+网关为常见任务提供类型明确的工具，并通过 C# 执行处理工具范围之外的工作。可选的 ToolBaker 流程将重复模式转为可复用的个人工具，需要明确接受，而非自动自学习。各项目的 README 提供安装方法、支持的应用版本、功能和安全限制。
 
 ## 命名方式
 

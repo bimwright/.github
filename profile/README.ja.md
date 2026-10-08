@@ -10,7 +10,7 @@
 
 AI アシスタントと BIM・CAD アプリケーションをつなぐオープンソースのツール。
 
-Model Context Protocol（MCP）を通じて Revit、AutoCAD、Navisworks、Inventor を操作できます。各アプリケーションのネイティブ API を使い、モデルの照会、繰り返し作業の自動化、変更の実行を行います。
+Model Context Protocol（MCP）を通じて Revit、AutoCAD、Navisworks、Inventor を操作できます。C# で実装したゲートウェイがローカルで動作し、MCP 対応の AI クライアントを各アプリケーションのネイティブ API につなぎます。人の指示と確認のもとで、モデルや図面の調査、繰り返し作業の自動化、ネイティブな形状や技術文書の作成・修正を行います。
 
 **bimwright** は **BIM** と **wright** を組み合わせた名前です。wright は、ものを作る人や建てる人を表す古い英語で、*shipwright*（船大工）などに使われます。私たちは、設計や建設に携わる人のためのツールを開発しています。
 
@@ -18,11 +18,13 @@ Model Context Protocol（MCP）を通じて Revit、AutoCAD、Navisworks、Inven
 
 ## ツール
 
-- [**rvt-mcp**](https://github.com/bimwright/rvt-mcp) — Autodesk® Revit® 2022–2027 向けの MCP ゲートウェイ。Revit API を AI から呼び出せるツールとして公開し、ツールセットによる段階的な公開、トランザクションを保護するバッチ実行、ToolBaker によるツールの再利用に対応します。Apache-2.0。
-- [**dwg-mcp**](https://github.com/bimwright/dwg-mcp) — Autodesk® AutoCAD® 2022–2027 向けの MCP ゲートウェイ。図面の文字を読み取り、位置関係に応じて断片をまとめ、翻訳を元の位置に書き戻します。コード実行の監査と操作の取り消しにも対応します。Apache-2.0。
-- [**nwd-mcp**](https://github.com/bimwright/nwd-mcp) — Autodesk® Navisworks® Manage 2022–2027 向けの MCP ゲートウェイ。干渉確認のために統合モデルを照会・確認し、ビューを移動できます。通信はループバック TCP に限定し、セッションごとのトークンで認証します。Apache-2.0。
-- [**ipt-mcp**](https://github.com/bimwright/ipt-mcp) — Autodesk® Inventor® 2022–2027 向けの MCP ゲートウェイ。パラメトリックなパーツ・スケッチ・フィーチャのモデリング、パラメータ、iProperty を AI から操作できます。複数バージョンに対応するアドインを C# で実装しています。Apache-2.0。
-- [**bim-wiki**](https://github.com/bimwright/bim-wiki) — ベトナム語を中心とする BIM ナレッジベース。ISO 19650 とベトナムの法規制（QĐ 347/348/1057/2500、Luật 60/2024、Nghị định 111/2024/175/2024、Thông tư 09/2024/24/2025）を扱います。CC-BY-SA 4.0。
+- [**rvt-mcp**](https://github.com/bimwright/rvt-mcp) — Autodesk® Revit® 向けの MCP ゲートウェイ。BIM モデルの調査、要素の作成・修正、ビュー・シート・モデルデータの操作に対応します。型付きツールとトランザクションを保護するバッチ実行で、エージェントによる BIM 作業とアドイン開発を支援します。Apache-2.0。
+- [**dwg-mcp**](https://github.com/bimwright/dwg-mcp) — Autodesk® AutoCAD® 向けの MCP ゲートウェイ。DWG 図面の調査・編集、形状・文字・ブロック・寸法・注釈の操作、ビューの画像取得と移動に対応します。繰り返しの CAD 作業や、文字を元の位置に書き戻す翻訳ワークフローを支援します。Apache-2.0。
+- [**nwd-mcp**](https://github.com/bimwright/nwd-mcp) — Autodesk® Navisworks® Manage 向けの MCP ゲートウェイ。統合モデルのプロパティ照会、項目の検索・選択、表示制御、保存済みビューポイントへの移動で、調整作業と干渉レビューを支援します。Apache-2.0。
+- [**ipt-mcp**](https://github.com/bimwright/ipt-mcp) — Autodesk® Inventor® 向けの MCP ゲートウェイ。パラメトリックなパーツ・スケッチ・フィーチャの作成、アセンブリの配置・調査、ビュー・寸法・注釈・表を含むネイティブな製図の作成・調整に対応します。Apache-2.0。
+- [**bim-wiki**](https://github.com/bimwright/bim-wiki) — ベトナム語を中心とする BIM ナレッジベース。ISO 19650、情報管理、プロジェクトのデリバリー、ベトナムの BIM 法規制を扱います。CC-BY-SA 4.0。
+
+ゲートウェイは一般的な作業に型付きツールを提供し、その範囲外の作業には C# 実行を利用できます。任意の ToolBaker ワークフローで繰り返すパターンを再利用可能な個人ツールにできますが、自動的な自己学習ではなく、明示的な承認が必要です。インストール方法、対応アプリケーションのバージョン、機能と安全上の制限は、各プロジェクトの README を参照してください。
 
 ## 命名について
 
